@@ -4,7 +4,7 @@ const config = require("./Config.json")
 
 let prefix = "-)"
 
-client.login(process.env.TOKEN)
+client.login(config.token)
 
 client.on("ready", () => {
     console.log("connecté !")
