@@ -44,7 +44,5 @@ client.on("message", message => {
     if(message.content === prefix + "fun3") {
         message.channel.send("Voici quelque chose qui est censser être fun: https://tenor.com/view/dance-excited-murica-america-feeling-good-gif-5150737")
     }
-
-
-
+    
 })
